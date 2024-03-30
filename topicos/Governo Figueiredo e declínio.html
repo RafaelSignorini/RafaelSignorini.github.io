@@ -6,23 +6,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Ditadura Militar</title>
       <style>
-        main {
+        body {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-color: white;
+          background-image: unset;
           padding: 2%;
           width: 75%;
           margin: 2%;
-        }
-        body {
-          background-image: url("../imagens/background.webp");
           background-repeat: no-repeat;
           background-size: cover;
-          display: flex;
-          justify-content: center;
-          align-items: center;
         }
       </style>
     </head>
@@ -78,7 +72,7 @@
         <br>
         -Voto para analfabetos;
         <br>
-        -Legalização dos partidos comunistas <button id="button">(*começa a tocar o hino da União Soviética*)</button><button id="parar">Parar o áudio</button>;
+        -Legalização dos partidos comunistas <button id="button" style=" margin-left:15px; inline-block; border: none; background-color: rgb(199, 75, 75); padding: 0.5%;"> Clique para tocar o hino da União Soviética </button><button id="parar" style="display:inline-block; margin-left: 15px; none; background: linear-gradient(90deg, rgba(45,105,190,1) 24%, rgba(205,222,47,1) 46%, rgba(0,212,255,1) 100%); padding: 0.5%; border-style: none">Parar o áudio</button>;
         <br>
         -Eleição direta de prefeitos em capitais e municípios importantes;
         <br>
@@ -94,10 +88,13 @@
 
           button.addEventListener("click", () => {
             anthem.play();
+            document.body.style.backgroundImage = "url('../imagens/URSS.jpg')";
           })
           para.addEventListener("click", () => {
             anthem.pause();
+            document.body.style.backgroundImage = "unset";
           })
+          
         </script>
       </body>
 </html>
