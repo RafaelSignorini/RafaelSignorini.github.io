@@ -18,3 +18,12 @@ body {
     padding-right: 15%;
     line-height: 20px;
 }
+.subtitulo1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 30px;
+}
