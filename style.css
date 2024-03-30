@@ -1,23 +1,6 @@
-/* Index */
 body {
-    background-image: url('./imagens/background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
     background-color: white;
-    padding: 2%;
-    animation: opacityFadeIn ease 1s;
 }
-
 .titulo1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 64px;
@@ -39,13 +22,4 @@ main {
     color: black;
     text-align: justify;
     line-height: 30px;
-}
-
-@keyframes opacityFadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
