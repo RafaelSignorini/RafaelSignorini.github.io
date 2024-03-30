@@ -78,7 +78,7 @@
         <br>
         -Voto para analfabetos;
         <br>
-        -Legalização dos partidos comunistas;
+        -Legalização dos partidos comunistas <button id="button">(*começa a tocar o hino da União Soviética*)</button><button id="parar">Parar o áudio</button>;
         <br>
         -Eleição direta de prefeitos em capitais e municípios importantes;
         <br>
@@ -87,5 +87,19 @@
         -Em 1988, foi promulgada a nova Constituição, elaborada por uma Assembleia Nacional Constituinte eleita em 1986.utados legisladores.
 
         Eleita em 15 de novembro de 1986, a Constituinte elaborou a nova Constituição, promulgada em 5 de outubro de 1988.
-    </body>
+        </p>
+        <audio src="../audios/ussr_anthem.mp3" id="audio"></audio>
+        <script>
+          var anthem = document.querySelector("audio");
+          var button = document.getElementById("button");
+          var para = document.getElementById("parar");
+
+          button.addEventListener("click", () => {
+            anthem.play();
+          })
+          para.addEventListener("click", () => {
+            anthem.pause();
+          })
+        </script>
+      </body>
 </html>
