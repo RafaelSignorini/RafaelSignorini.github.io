@@ -24,15 +24,21 @@ body {
     line-height: 30px;
 }
 .menu {
-    width: 200px;
+    width: 350px;
     height: 100%;
     background-color: #f0f0f0;
     position: fixed;
     top: 0;
-    left: -200px;
+    left: -350px;
     transition: left 0.3s ease;
   }
   
   .menu.open {
     left: 0;
+  }
+  ul li {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    list-style: none;
   }
