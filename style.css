@@ -1,5 +1,8 @@
 body {
-    background-color: unset;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(251,251,251,1) 53%, rgba(252,131,131,1) 100%);
+    background-repeat: no-repeat;
+    margin-bottom: 105px;
 }
 .titulo1 {
     margin-top: 2.5%;
@@ -27,7 +30,7 @@ body {
 .menu {
     width: 350px;
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #131111f5;
     position: fixed;
     top: 0;
     left: -350px;
@@ -42,8 +45,24 @@ body {
     margin-bottom: 15%;
     margin-left: 5%;
     list-style: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
   }
-
-  .drawer{
-    
+  #drawer{
+    margin:15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 5%;
+    border-style: none;
+    background-image: url('https://cdn.icon-icons.com/icons2/916/PNG/512/Menu_icon_icon-icons.com_71858.png');
+    background-size: cover;
+  }
+  #drawer2{
+    margin:15px;
+    height: 45px;
+    width: 70px;
+    border-radius: 5%;
+    border-style: none;
+    background-size: cover;
   }
