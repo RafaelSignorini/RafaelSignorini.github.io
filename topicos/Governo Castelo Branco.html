@@ -3,97 +3,83 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
         <link rel="shortcut icon" href="imagens/Carlos_Lamarca_Busto.jpg" type="image/x-icon"/> 
-        <style>
-          main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            padding: 2%;
-            width: 85%;
-            margin: 2%;
-          }
-          body {
-            background-image: url("../imagens/background.webp");
-            background-repeat: repeat-y;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        </style>
+        <title>
+            Ditadura Militar
+        </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ditadura Militar</title>
-    </head>
-        <body>
-          <main>
-            <h1 class="titulo1"> Governo Castelo Branco (1964 - 1967) </h1>
-            <h2 class="subtitulo1">O início do regime cívico-militar</h2>
-            <p class="texto1"> No dia 11 de abril de 1964, o comando militar havia aparelhado todo o 
-              aparato estatal, assim, entitulando o marechal Humberto Castelo Branco o novo presidente do Brasil. 
-              Ao contrário do que propagavam ao povo sobre a breve permanência que o regime provisório militar 
-              teria, Castelo Branco e seus aliados no Estado tinham o interesse de "estabelecer a Linha Dura", 
-              de repreensão às atividades políticas de esquerda consideradas pelos militares golpistas como 
-              "terroristas".
-              <br>
-              <br>
-              Castelo Branco, mesmo tendo prometido democracia e melhora nas vidas do povo, instrumentalizou a 
-              política com os Atos Institucionais como braços do Estado para repressão dos opositores, assim, 
-              fechou associações civis, proibiu greves, interveio em sindicatos e cassou mandatos de políticos por 
-              dez anos, inclusive o ex-presidente Juscelino Kubitschek. 
-              (sim, eu escrevi o nome dele certo de primeira) 
-            </p>
-            <br>
-            <br>
-            <h2 class="subtitulo1">Bipartidarismo</h2>
-            <p class="texto1"> 
-              O bipartidarismo foi um dos fatores mais característicos da ditadura militar. Aprovado em novembro 
-              de 1965, o Ato Complementar Número 4 instaurou o bipartidarismo no país, entre o MDB (Movimento 
-              Democrático Brasileiro) e o ARENA (Aliança Renovadora Nacional).
-              <br>
-              <br>
-              No MDB haviam vários membros do PCB abrigados que não aceitavam a luta armada como alternativa de 
-              oposição ao regime militar. Estes se entituçaram de "Resistência Democrática". Visto o crescimento 
-              da esquerda e a influência das propagandas pelos movimentos chamados de subversivos, observando a 
-              população mais humilde iniciava um movimento em direção9 à esquerda, a elite brasileira, e a classe 
-              média começaram a temer o rápido avanço do chamado, pelos anticomunistas, de "perigo vermelho" ou 
-              "perigo comunista". Segundo relatos publicados pelo Departamento de Documentação Histórica da 
-              Fundação Getúlio Vargas: "Os militares envolvidos no golpe de 1964 justificaram sua ação afirmando 
-              que o objetivo era restaurar a disciplina e a hierarquia nas Forças Armadas e deter a 
-              "ameaça comunista" que, segundo eles, pairava sobre o Brasil."
-              <br>
-              <br>
-              No dia 17 de julho, o Congresso havia aprovado a prorrogação de seu mandato até 15 de Março de 1967, 
-              sob a justificativa de que a reforma política e econoômica planejada pelo governo militar poderia 
-              não ser concluída até 31 de Janeiro de 1966, quando terminaria o mandato presidencial inaugurado em 
-              1961.
-            </p>
-            <br>
-            <br>
-            <h2 class="subtitulo1">Primeiros Atos Institucionais</h2>
-            <p class="texto1"> 
-              Nas eleições realizadas em 1965, o presidente Castelo Branco editou, no dia 27 de outubro de 1965, 
-              o Ato Institucional n°2 (AI 2), que, dentre outras medidas, extinguia os partidos políticos, 
-              estabelecia eleições indiretas para a presidência da República, facilitava a intervenção federal 
-              nos políticos.
-              <br>
-              <br>
-              No âmbito social e econômico, algumas instituições, leis e projetos desse governo, ainda em ativa 
-              hoje, são: Estatuto da Terra (1964), Banco Central do Brasil (1964), Código Eleitoral Brasileiro 
-              (1965), Código Tributário Nacional (1966), Banco da Amazônia (1966), FGTS (1966), SUDAM (1966), 
-              Código de Mineração (1967) e Zona Franca de Manaus (1967).
-              <br>
-              <br>
-              A posse de Castelo Branco ocorreu em 15 de abril de 1964, tendo permanecido na presidência até 
-              março de 1967. Castelo Branco morreu, pouco depois de deixar seu cargo, em um acidente aéreo no qual um caça 
-              T - 33 da FAB (Força Aérea Brasileira) atingiu a cauda do <i>Piper Aztec PA 23</i>, no qual Castelo 
-              Branco viajava. Houve apenas um sobrevivente, e as Forças Armadas nunca deram uma explicação 
-              detalhada sobre o caso.
-            </p>
-          </main>
+    <body>
+      <div class="menu"> 
+        <button id="drawer">
+          drawer
+        </button>
+      </div>
+      <center> <h1 style="margin-top: 2.5%;" class="titulo1"> Governo Castelo Branco (1964 - 1967) </h1> </center>
+      <center> <h2 style="margin-top: 1%;" class="subtitulo1"> O início do regime cívico-militar </h2> </center>
+      <center> <p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;"  class="texto1">class="texto1"> No dia 11 de abril de 1964, o comando militar havia aparelhado todo o 
+        aparato estatal, assim, entitulando o marechal Humberto Castelo Branco o novo presidente do Brasil. 
+        Ao contrário do que propagavam ao povo sobre a breve permanência que o regime provisório militar 
+        teria, Castelo Branco e seus aliados no Estado tinham o interesse de "estabelecer a Linha Dura", 
+        de repreensão às atividades políticas de esquerda consideradas pelos militares golpistas como 
+        "terroristas".
+        <br>
+        <br>
+        Castelo Branco, mesmo tendo prometido democracia e melhora nas vidas do povo, instrumentalizou a 
+        política com os Atos Institucionais como braços do Estado para repressão dos opositores, assim, 
+        fechou associações civis, proibiu greves, interveio em sindicatos e cassou mandatos de políticos por 
+        dez anos, inclusive o ex-presidente Juscelino Kubitschek. 
+        (sim, eu escrevi o nome dele certo de primeira) 
+      </p></center>
+      <br>
+      <br>
+      <center><h2 style="margin-top: 1%;" class="subtitulo1">Bipartidarismo</h2>
+      <center><p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;" class="texto1"> 
+        O bipartidarismo foi um dos fatores mais característicos da ditadura militar. Aprovado em novembro 
+        de 1965, o Ato Complementar Número 4 instaurou o bipartidarismo no país, entre o MDB (Movimento 
+        Democrático Brasileiro) e o ARENA (Aliança Renovadora Nacional).
+        <br>
+        <br>
+        No MDB haviam vários membros do PCB abrigados que não aceitavam a luta armada como alternativa de 
+        oposição ao regime militar. Estes se entituçaram de "Resistência Democrática". Visto o crescimento 
+        da esquerda e a influência das propagandas pelos movimentos chamados de subversivos, observando a 
+        população mais humilde iniciava um movimento em direção9 à esquerda, a elite brasileira, e a classe 
+        média começaram a temer o rápido avanço do chamado, pelos anticomunistas, de "perigo vermelho" ou 
+        "perigo comunista". Segundo relatos publicados pelo Departamento de Documentação Histórica da 
+        Fundação Getúlio Vargas: "Os militares envolvidos no golpe de 1964 justificaram sua ação afirmando 
+        que o objetivo era restaurar a disciplina e a hierarquia nas Forças Armadas e deter a 
+        "ameaça comunista" que, segundo eles, pairava sobre o Brasil."
+        <br>
+        <br>
+        No dia 17 de julho, o Congresso havia aprovado a prorrogação de seu mandato até 15 de Março de 1967, 
+        sob a justificativa de que a reforma política e econoômica planejada pelo governo militar poderia 
+        não ser concluída até 31 de Janeiro de 1966, quando terminaria o mandato presidencial inaugurado em 
+        1961.
+      </p></center>
+      <br>
+      <br>
+      <center> <h2 style="margin-top: 1%;" class="subtitulo1">Primeiros Atos Institucionais </h2> </center>
+      <center><p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;" class="texto1"> 
+        Nas eleições realizadas em 1965, o presidente Castelo Branco editou, no dia 27 de outubro de 1965, 
+        o Ato Institucional n°2 (AI 2), que, dentre outras medidas, extinguia os partidos políticos, 
+        estabelecia eleições indiretas para a presidência da República, facilitava a intervenção federal 
+        nos políticos.
+        <br>
+        <br>
+        No âmbito social e econômico, algumas instituições, leis e projetos desse governo, ainda em ativa 
+        hoje, são: Estatuto da Terra (1964), Banco Central do Brasil (1964), Código Eleitoral Brasileiro 
+        (1965), Código Tributário Nacional (1966), Banco da Amazônia (1966), FGTS (1966), SUDAM (1966), 
+        Código de Mineração (1967) e Zona Franca de Manaus (1967).
+        <br>
+        <br>
+        A posse de Castelo Branco ocorreu em 15 de abril de 1964, tendo permanecido na presidência até 
+        março de 1967. Castelo Branco morreu, pouco depois de deixar seu cargo, em um acidente aéreo no qual um caça 
+        T - 33 da FAB (Força Aérea Brasileira) atingiu a cauda do <i>Piper Aztec PA 23</i>, no qual Castelo 
+        Branco viajava. Houve apenas um sobrevivente, e as Forças Armadas nunca deram uma explicação 
+        detalhada sobre o caso.
+      </p></center>
     </body>
 </html>
 

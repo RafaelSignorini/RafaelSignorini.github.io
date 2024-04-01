@@ -1,45 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
         <link rel="shortcut icon" href="imagens/Carlos_Lamarca_Busto.jpg" type="image/x-icon"/> 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ditadura Militar</title>
-        <style>
-          main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            padding: 2%;
-            width: 75%;
-            margin: 2%;
-          }
-          body {
-            background-image: url("../imagens/background.webp");
-            background-repeat: repeat-y;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        </style>
-    </head>
+        <title>
+            Ditadura Militar
+        </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditadura Militar</title>
     <body>
-      <main>
-        <h1 class="titulo1">Governo Costa e Silva (1967 - 1969)</h1> 
-        <h2 class="subtitulo1">Posse e Governo do Presidente Costa e Silva</h2>
-        <p class="texto1">O Marechal Artur Costa e Silva foi nomeado pelas Forças Armadas e 
+      <div class="menu"> 
+        <button id="drawer">
+          drawer
+        </button>
+      </div>
+        <center> <h1 style="margin-top: 2.5%;" class="titulo1">Governo Costa e Silva (1967 - 1969)</h1> </center>
+        <center> <h2 style="margin-top: 1%;" class="subtitulo1">Posse e Governo do Presidente Costa e Silva</h2> </center>
+        <center> <p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;" class="texto1">O Marechal Artur Costa e Silva foi nomeado pelas Forças Armadas e 
           referendado pelo Congresso Nacional, tomando posse como Presidente da República em 15 de março de 
           1967. Seu ministério, formado por militares e civis, incluindo Antônio Delfim Netto como Ministro da 
           Fazenda, conseguiu reduzir as taxas de inflação nos primeiros anos de governo, reaquecendo a 
-          economia e atraindo investimentos estrangeiros.</p> 
+          economia e atraindo investimentos estrangeiros.
+        </p> </center>
         <br>
         <br>
-        <h2 class="subtitulo1"> Política e Oposição </h2> 
-        <p class="texto1"> No entanto, no campo político, não havia sinais de retorno à democracia 
+        <center> <h2 style="margin-top: 1%;" class="subtitulo1"> Política e Oposição </h2> </center>
+        <center> <p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;"  class="texto1"> No entanto, no campo político, não havia sinais de retorno à democracia 
           plena. Os militares defendiam o endurecimento do regime, a "linha dura", o que levou a perseguições 
           políticas e missões de segurança organizadas pelo governo. 
           <br>
@@ -54,11 +43,11 @@
           líderes militares. A violência da ditadura militar se intensificou, com vítimas principalmente entre 
           guerrilheiros, comunistas, estudantes e liberais. Os confrontos entre grupos antagônicos se 
           intensificaram, com revoltosos e apoiadores do regime em lados opostos.
-        </p> 
+        </p> </center>
         <br>
         <br>
-        <h2 class="subtitulo1"> Reações e protestos: Protestos e Repressão Estudantil </h2> 
-        <p class="texto1"> Após o golpe militar, manifestações e protestos tomaram as ruas das 
+        <center> <h2 style="margin-top: 1%;" class="subtitulo1"> Reações e protestos: Protestos e Repressão Estudantil </h2> </center>
+        <center> <p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;"  class="texto1"> Após o golpe militar, manifestações e protestos tomaram as ruas das 
           principais cidades brasileiras. Os estudantes, em especial, radicalizaram suas ações. Com a posse 
           do General Artur da Costa e Silva, as greves operárias ganharam força, enquanto a repressão do 
           regime se intensificava. 
@@ -96,11 +85,11 @@
           de manifestantes que conseguissem, em especial, os líderes. O DOPS apreendeu 5 estudantes que 
           distribuíam panfletos e um policial que promoveu o apedrejamento do prédio do Conselho de Segurança 
           Nacional, este foi solto após ser constatada a sua função no local.
-        </p> 
+        </p> </center>
         <br>
         <br>
-        <h2 class="subtitulo1"> Ato Institucional 5 (AI 5) </h2> 
-        <p class="texto1"> Com os linha dura ocupando o Estado e os manifestantes ocupandos as ruas, 
+        <center> <h2 style="margin-top: 1%;" class="subtitulo1"> Ato Institucional 5 (AI 5) </h2> </center>
+        <center> <p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;"  class="texto1"> Com os linha dura ocupando o Estado e os manifestantes ocupandos as ruas, 
           estes organizados por líderes de esquerda, a radicalização do conflito escalou, a controvertida 
           batalha entre os militares e os manifestantes que reinvindicavam o fim do regime. A consequência 
           desses eventos foi a piora na supressão das liberdades individuais, gerando o gradual fechamento do 
@@ -125,11 +114,20 @@
           (Márcio de Sousa e Melo) e Marinha (Augusto Hamann Rademaker Grünewald), no dia 1 de setembro de 
           1969, o AI 12, foi baixado informando à nação brasileira o afastamento do presidente e o controle 
           do governo do Brasil pelos ministros militares.
-        </p>
-      </main>
+        </p> </center>
+        <div class="card" style="max-width: 540px; margin-left: 25px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
-
-
-
-

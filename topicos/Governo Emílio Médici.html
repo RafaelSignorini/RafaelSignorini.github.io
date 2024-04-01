@@ -1,92 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
         <link rel="shortcut icon" href="imagens/Carlos_Lamarca_Busto.jpg" type="image/x-icon"/> 
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Ditadura Militar</title>
-      <style>
-        main {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          background-color: white;
-          padding: 2%;
-          width: 75%;
-          margin: 2%;
-        }
-        body {
-          background-image: url("../imagens/background.webp");
-          background-repeat: repeat-y;
-          background-size: cover;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-      </style>
-    </head>
+        <title>
+            Ditadura Militar
+        </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditadura Militar</title>
     <body>
-      <main>
-       <h1 class="titulo1"> Governo Emílio Médici (1969 - 1974) </h1> 
-       <h2 class="subtitulo1"> Instrumentalização da censura na repressão </h2> 
-       <p class="texto1"> No dia 30 de outubro 1969, Emílio Garrastazu Médici foi nomeado o terceiro 
-        Presidente da República militar. Médici foi responsável pelo início do que foi chamado de 
-        <i>"Guerra Suja"</i>, uma forma de confronto e repressão que incluía infiltração da polícia secreta 
-        em espaços acadêmicos para apreender alunos e professores que se manifestavam contra o regime. Estes 
-        eram levados para quartéis para serem interrogados, mortos e torturados. O presidente utilizava do 
-        SNI (Serviço Nacional de Informação) para acompanhar telefones e meios de comunicação grampeados 
-        e descobrir se, através destes, propagandas comunistas eram disseminadas. Não apenas isso, mas os 
-        coordenadores do programa haviam recebido treinamento especial no Estados Unidos.
+      <div class="menu"> 
+        <button id="drawer">
+          drawer
+        </button>
+      </div>
+        <center><h1 style="margin-top: 2.5%;" class="titulo1"> Governo Emílio Médici (1969 - 1974) </h1></center>
+        <center><h2 style="margin-top: 1%;" class="subtitulo1"> Instrumentalização da censura na repressão </h2></center>
+        <center><p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;" class="texto1"> No dia 30 de outubro 1969, Emílio Garrastazu Médici foi nomeado o terceiro 
+          Presidente da República militar. Médici foi responsável pelo início do que foi chamado de 
+          <i>"Guerra Suja"</i>, uma forma de confronto e repressão que incluía infiltração da polícia secreta 
+          em espaços acadêmicos para apreender alunos e professores que se manifestavam contra o regime. Estes 
+          eram levados para quartéis para serem interrogados, mortos e torturados. O presidente utilizava do 
+          SNI (Serviço Nacional de Informação) para acompanhar telefones e meios de comunicação grampeados 
+          e descobrir se, através destes, propagandas comunistas eram disseminadas. Não apenas isso, mas os 
+          coordenadores do programa haviam recebido treinamento especial no Estados Unidos.
+          <br>
+          <br>
+          Desde o início do regime já haviam propagandas institucionais sendo feitas em massa, com frases de 
+          efeito cheias de patriotismo cego tais como <i>"Esté é um país que vai pra frente"</i>, decalques e 
+          várias outras formas de glorificar os militares no poder. Ao mesmo tempo, nos <i>porões da 
+          ditadura</i>, a tortura se intensificava, como resposta, os guerrilheiros intensificaram os atentados 
+          e sequestros à simpatizantes e apoiadores da ditadura.
+          <br>
+          <br>
+          Entre alguns programas de desenvolvimento social que surgiram neste governo, estão: Programa de 
+          Redistribuição de Terras e de Estímulo à Agroindústria do Norte e Nordeste - PROTERRA (1971); 
+          Programa Especial para o Vale do São Francisco - PROVALE (1972); Programa de Polos Agropecuários e 
+          Agrominerais da Amazônia - POLAMAZÔNIA (1974); Programa de Desenvolvimento de Áreas Integradas do 
+          Nordeste - POLONORDESTE (1974).
+        </p></center>
         <br>
         <br>
-        Desde o início do regime já haviam propagandas institucionais sendo feitas em massa, com frases de 
-        efeito cheias de patriotismo cego tais como <i>"Esté é um país que vai pra frente"</i>, decalques e 
-        várias outras formas de glorificar os militares no poder. Ao mesmo tempo, nos <i>porões da 
-        ditadura</i>, a tortura se intensificava, como resposta, os guerrilheiros intensificaram os atentados 
-        e sequestros à simpatizantes e apoiadores da ditadura.
-        <br>
-        <br>
-        Entre alguns programas de desenvolvimento social que surgiram neste governo, estão: Programa de 
-        Redistribuição de Terras e de Estímulo à Agroindústria do Norte e Nordeste - PROTERRA (1971); 
-        Programa Especial para o Vale do São Francisco - PROVALE (1972); Programa de Polos Agropecuários e 
-        Agrominerais da Amazônia - POLAMAZÔNIA (1974); Programa de Desenvolvimento de Áreas Integradas do 
-        Nordeste - POLONORDESTE (1974).
-      </p> 
-      <br>
-      <br>
-       <h2 class="subtitulo1"> O Milagre Econômico </h2> 
-       <p class="texto1"> O Milagre Econômico	foi possível devido às políticas desenvolvimentistas 
-        de Médici e, posteriormente, aos empréstimos feitos pelo Estados Unidos e à abertura da economia 
-        brasileira ao capital estrangeiro, estabelecendo várias multinacionais no país. Com a vinda do capital 
-        estrangeiro e suas empresas, os grandes fazendeiros passaram a produzir para a exportação, e isso, 
-        paralelamente às novas políticas salariais do governo, prejudicaram drasticamente a alimentação da 
-        população, fazendo com que a taxa de desnutrição entre 1963 - 1975 fosse de aproximadamente 30% e 
-        passasse a ser por volta de 70%, enquanto quase 18% se encontrava no índice de "desnutrição absoluta". 
-        A medida que o governo trouxe para solucionar essa questão foi banir a palavra "fome" do noticiário. 
-        ("Se você tem um problema, faça-o sumir." - Provavelmente alguém inteligente.)
-        <br>
-        <br>
-        "Não se pode colocar a distribuição de renda na frente da produção. Se o fizermos, acabaremos 
-        distribuindo o que não existe.", esta foi a frase que o Ministro da Fazenda de Médici, Delfim Neto, 
-        discursou em defesa da necessidade de investimento prévio em infraestrutura como as usinas 
-        hidrelétricas sem as quais não haveria melhoria na produção nacional econômica. As empresas que mais 
-        se beneficiaram do Milagre Econômico foram as do capital estrangeiro e as estatais Petrobras, Vale do 
-        Rio Doce e a Telebras. Apesar disso, a economia nacional privada, fossem médias ou pequenas empresas, 
-        perdiam espaço e o endividamento externo aumentava. Os trabalhadores tiveram seus salários aviltados 
-        ao mesmo tempo em que a inflação se manteve baixa até o ano de 1973. O maior crítico desse período 
-        foi o empresário Julrt Rudolf Mirror, que escreveu o livro, censurado, "A ditadura dos cartéis". 
-        <br>
-        <br>
-        O "milagre econômico" era justificado pelo crescimento do PIB (produto interno bruto) do país, além 
-        de o surgimento de uma nova classe social-econômica, a classe média. Médici também apontou Filinto 
-        Müller, conhecido internacionalmente como <i>"O carrasco que servia a Getúlio Vargas"</i>, ao cargo 
-        de presidente do Congresso Nacional e chefe do ARENA, partido dos militares. A principal realização 
-        política de Médici foi terminar com os movimentos guerrilheiros, subversivos e revolucionários então 
-        existentes no país, este combate que ficou nas mãos do ministro do exército Orlando Geisel. A maior 
-        guerrilha do Brasil, Guerrilha do Araquaia, finalmente derrotada, abriu espaço para que o sucessor de 
-        Médici, Ernesto Geisel, tivesse ponto de partida para a política em seu governo.
-      </p></main>
+        <h2 style="margin-top: 1%;" class="subtitulo1"> O Milagre Econômico </h2> 
+        <center><p style="margin-left: 20%; margin-right: 20%; margin-top: 2.5%;" class="texto1">
+          O Milagre Econômico	foi possível devido às políticas desenvolvimentistas 
+          de Médici e, posteriormente, aos empréstimos feitos pelo Estados Unidos e à abertura da economia 
+          brasileira ao capital estrangeiro, estabelecendo várias multinacionais no país. Com a vinda do capital 
+          estrangeiro e suas empresas, os grandes fazendeiros passaram a produzir para a exportação, e isso, 
+          paralelamente às novas políticas salariais do governo, prejudicaram drasticamente a alimentação da 
+          população, fazendo com que a taxa de desnutrição entre 1963 - 1975 fosse de aproximadamente 30% e 
+          passasse a ser por volta de 70%, enquanto quase 18% se encontrava no índice de "desnutrição absoluta". 
+          A medida que o governo trouxe para solucionar essa questão foi banir a palavra "fome" do noticiário. 
+          ("Se você tem um problema, faça-o sumir." - Provavelmente alguém inteligente.)
+          <br>
+          <br>
+          "Não se pode colocar a distribuição de renda na frente da produção. Se o fizermos, acabaremos 
+          distribuindo o que não existe.", esta foi a frase que o Ministro da Fazenda de Médici, Delfim Neto, 
+          discursou em defesa da necessidade de investimento prévio em infraestrutura como as usinas 
+          hidrelétricas sem as quais não haveria melhoria na produção nacional econômica. As empresas que mais 
+          se beneficiaram do Milagre Econômico foram as do capital estrangeiro e as estatais Petrobras, Vale do 
+          Rio Doce e a Telebras. Apesar disso, a economia nacional privada, fossem médias ou pequenas empresas, 
+          perdiam espaço e o endividamento externo aumentava. Os trabalhadores tiveram seus salários aviltados 
+          ao mesmo tempo em que a inflação se manteve baixa até o ano de 1973. O maior crítico desse período 
+          foi o empresário Julrt Rudolf Mirror, que escreveu o livro, censurado, "A ditadura dos cartéis". 
+          <br>
+          <br>
+          O "milagre econômico" era justificado pelo crescimento do PIB (produto interno bruto) do país, além 
+          de o surgimento de uma nova classe social-econômica, a classe média. Médici também apontou Filinto 
+          Müller, conhecido internacionalmente como <i>"O carrasco que servia a Getúlio Vargas"</i>, ao cargo 
+          de presidente do Congresso Nacional e chefe do ARENA, partido dos militares. A principal realização 
+          política de Médici foi terminar com os movimentos guerrilheiros, subversivos e revolucionários então 
+          existentes no país, este combate que ficou nas mãos do ministro do exército Orlando Geisel. A maior 
+          guerrilha do Brasil, Guerrilha do Araquaia, finalmente derrotada, abriu espaço para que o sucessor de 
+          Médici, Ernesto Geisel, tivesse ponto de partida para a política em seu governo.
+      </p></center>
     </body>
 </html>
 
