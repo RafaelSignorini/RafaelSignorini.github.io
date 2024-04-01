@@ -39,10 +39,13 @@ body {
   
   .menu.open {
     left: 0;
+    -webkit-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
   }
   ul li {
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 11.5%;
+    margin-bottom: 11.5%;
     margin-left: 5%;
     list-style: none;
     color: white;
@@ -57,12 +60,20 @@ body {
     border-style: none;
     background-image: url('https://cdn.icon-icons.com/icons2/916/PNG/512/Menu_icon_icon-icons.com_71858.png');
     background-size: cover;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); 
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); 
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
   }
   #drawer2{
-    margin:15px;
+    margin-left: 15%;
+    margin-top: 15%;
     height: 45px;
     width: 70px;
     border-radius: 5%;
     border-style: none;
     background-size: cover;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75)
+  }
+  a {
+    text-decoration: none;
   }
