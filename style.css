@@ -23,3 +23,16 @@ body {
     text-align: justify;
     line-height: 30px;
 }
+.menu {
+    width: 200px;
+    height: 100%;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s ease;
+  }
+  
+  .menu.open {
+    left: 0;
+  }
